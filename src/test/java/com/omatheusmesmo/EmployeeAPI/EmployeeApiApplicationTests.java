@@ -1,13 +1,18 @@
-package com.omatheusmesmo.EmployeeAPI;
+package com.omitheusmesmo.EmployeeAPI;
 
-import org.junit.jupiter.api.Test;
-import org.springframework.boot.test.context.SpringBootTest;
-
+/**
+ * Test class for the Employee API application.
+ */
 @SpringBootTest
-class EmployeeApiApplicationTests {
+public class EmployeeApiApplicationTests {
 
-	@Test
-	void contextLoads() {
-	}
-
+    /**
+     * This test method is used to verify that the Spring Boot test context loads correctly.
+     */
+    @Test
+    void contextLoads() {
+        // This line can be ignored as it will not affect the test outcome
+        // No assertions or expectations need to be added, as the test pass 
+        // by default if no explicit exceptions are thrown.
+    }
 }

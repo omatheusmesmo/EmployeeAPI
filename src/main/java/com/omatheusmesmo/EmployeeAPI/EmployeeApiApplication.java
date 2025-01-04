@@ -1,13 +1,19 @@
 package com.omatheusmesmo.EmployeeAPI;
 
-import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
-
+/**
+ * The main application entry point for the Employee API.
+ * This class is annotated with @SpringBootApplication to enable Spring Boot auto-configuration and component scanning.
+ */
 @SpringBootApplication
 public class EmployeeApiApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(EmployeeApiApplication.class, args);
-	}
-
+    /**
+     * The main method, which runs the application using SpringApplication.run().
+     *
+     * @param args Command-line arguments passed to the application.
+     */
+    public static void main(String[] args) {
+        // Run the application
+        SpringApplication.run(EmployeeApiApplication.class, args);
+    }
 }
